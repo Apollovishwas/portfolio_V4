@@ -1,0 +1,114 @@
+.Languages {
+    height: 100wh;
+    background-color:  rgb(157 36 43);
+}
+.theWholeDivContainer {
+    margin-left:1%;
+    padding-top:15%;
+    align-items: center;
+    justify-content: center;
+display: flex;
+flex-direction: row;
+}
+.theWholeDivContainerTwo {
+    padding-top:0%;
+    align-items: center;
+    justify-content: center;
+display: flex;
+flex-direction: row;
+}
+.theWholeDivContainerThree {
+    margin-left: 2%;
+    padding-top:0%;
+    margin-bottom: 15%;
+    align-items: center;
+    justify-content: center;
+display: flex;
+flex-direction: row;
+}
+
+.extra {
+    width: 80px !important;
+}
+
+#a {
+    margin-right:3%;
+    font-family: 'Gideon Roman', cursive;
+    padding: 10px;
+    width: 60px;
+    font-size: 20px;
+    color : white;
+    border-radius: 20px;
+}
+
+.theSphere {
+    position: absolute;
+}
+
+.content{
+    
+    z-index: 0;
+}
+
+
+
+.anime {
+
+    display: inline-block;
+    z-index: 2;
+}
+
+
+.random:hover{
+    transform: scale(1.8) !important;
+    animation-duration: 800ms;
+}
+
+.contactMe-Div{
+    color: white;
+}
+
+.LanguageHeading {
+    margin-top:5% !important;
+ 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.langdiv {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+
+    .LanguageHeading{
+        font-size:39px !important;
+        letter-spacing : 10px !important;
+    }
+    .random {
+        font-size : 20px;
+    }
+    .langP{
+        font-size:15px;
+    }
+
+    #a{
+        padding:10px;
+    }
+
+}
+
+
+body {
+    overflow-x: hidden;
+}
